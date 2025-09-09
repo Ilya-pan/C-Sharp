@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KPO_1", "KPO_1\KPO_1.csproj", "{3FA9F5DC-25E8-436A-A813-9F939F79B5B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_App", "WPF_App\WPF_App.csproj", "{55BD4949-B362-4470-B770-9C46D0D9869A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhonesPattern", "PhonesPattern\PhonesPattern.csproj", "{2885163E-AB59-47F3-A552-F64907D215A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressDisplay", "ProgressDisplay\ProgressDisplay.csproj", "{69D1CFCE-9380-43BE-BAFE-5BDB8A827F21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FA9F5DC-25E8-436A-A813-9F939F79B5B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA9F5DC-25E8-436A-A813-9F939F79B5B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA9F5DC-25E8-436A-A813-9F939F79B5B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA9F5DC-25E8-436A-A813-9F939F79B5B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55BD4949-B362-4470-B770-9C46D0D9869A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55BD4949-B362-4470-B770-9C46D0D9869A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55BD4949-B362-4470-B770-9C46D0D9869A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55BD4949-B362-4470-B770-9C46D0D9869A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2885163E-AB59-47F3-A552-F64907D215A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2885163E-AB59-47F3-A552-F64907D215A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2885163E-AB59-47F3-A552-F64907D215A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2885163E-AB59-47F3-A552-F64907D215A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D1CFCE-9380-43BE-BAFE-5BDB8A827F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D1CFCE-9380-43BE-BAFE-5BDB8A827F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D1CFCE-9380-43BE-BAFE-5BDB8A827F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D1CFCE-9380-43BE-BAFE-5BDB8A827F21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79E534E8-7751-4009-8008-4118C352B8AA}
+	EndGlobalSection
+EndGlobal

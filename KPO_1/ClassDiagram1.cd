@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="KPO_1.AndroidPhone" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAACAAEAAASAAAAAAA=</HashCode>
+      <FileName>AndroidPhone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KPO_1.Phone">
+    <Position X="6.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAABQABAAAAAgAgAAIAAACAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Phone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KPO_1.Smartphone" Collapsed="true">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAgAAAAAAAAAAAAAAQAAIAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Smartphone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KPO_1.FeaturePhone" Collapsed="true">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAACACQAAAABAAAA=</HashCode>
+      <FileName>FeaturePhone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KPO_1.IPhone" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAACABAAQAgAAAAAAAAAAA=</HashCode>
+      <FileName>IPhone.cs</FileName>
+      <NewMemberFileName>iPhone.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KPO_1.ClamshellPhone" Collapsed="true">
+    <Position X="8.5" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="KPO_1.FeaturePhone" ManuallyRouted="true">
+      <Path>
+        <Point X="10.5" Y="4.441" />
+        <Point X="10.5" Y="5.198" />
+        <Point X="9.25" Y="5.198" />
+        <Point X="9.25" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IAAAABAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAoAAAAA=</HashCode>
+      <FileName>ClamshellPhone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KPO_1.CandyBarPhone" Collapsed="true">
+    <Position X="10.75" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="KPO_1.FeaturePhone" ManuallyRouted="true">
+      <Path>
+        <Point X="10.5" Y="4.441" />
+        <Point X="10.5" Y="5.186" />
+        <Point X="11.5" Y="5.186" />
+        <Point X="11.5" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAABAAAAAAA=</HashCode>
+      <FileName>CandyBarPhone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,147 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "KPO_1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/KPO_1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KPO_1.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "PhonesPattern/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "KPO_1": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PhonesPattern.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PhonesPattern.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "ProgressDisplay/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ProgressDisplay.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProgressDisplay.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "KPO_1/1.0.0": {
+      "type": "project",
+      "path": "../KPO_1/KPO_1.csproj",
+      "msbuildProject": "../KPO_1/KPO_1.csproj"
+    },
+    "PhonesPattern/1.0.0": {
+      "type": "project",
+      "path": "../PhonesPattern/PhonesPattern.csproj",
+      "msbuildProject": "../PhonesPattern/PhonesPattern.csproj"
+    },
+    "ProgressDisplay/1.0.0": {
+      "type": "project",
+      "path": "../ProgressDisplay/ProgressDisplay.csproj",
+      "msbuildProject": "../ProgressDisplay/ProgressDisplay.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "KPO_1 >= 1.0.0",
+      "PhonesPattern >= 1.0.0",
+      "ProgressDisplay >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Илья\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\WPF_App\\WPF_App.csproj",
+      "projectName": "WPF_App",
+      "projectPath": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\WPF_App\\WPF_App.csproj",
+      "packagesPath": "C:\\Users\\Илья\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\WPF_App\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Илья\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\KPO_1\\KPO_1.csproj": {
+              "projectPath": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\KPO_1\\KPO_1.csproj"
+            },
+            "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\PhonesPattern\\PhonesPattern.csproj": {
+              "projectPath": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\PhonesPattern\\PhonesPattern.csproj"
+            },
+            "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\ProgressDisplay\\ProgressDisplay.csproj": {
+              "projectPath": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\ProgressDisplay\\ProgressDisplay.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

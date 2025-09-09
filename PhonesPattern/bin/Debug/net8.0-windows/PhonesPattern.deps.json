@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PhonesPattern/1.0.0": {
+        "dependencies": {
+          "KPO_1": "1.0.0"
+        },
+        "runtime": {
+          "PhonesPattern.dll": {}
+        }
+      },
+      "KPO_1/1.0.0": {
+        "runtime": {
+          "KPO_1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PhonesPattern/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KPO_1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

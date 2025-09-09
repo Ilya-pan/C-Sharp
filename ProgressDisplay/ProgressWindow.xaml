@@ -1,0 +1,19 @@
+﻿<Window x:Class="ProgressDisplay.ProgressWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProgressDisplay"
+        mc:Ignorable="d"
+    Title="Генерация телефонов" Height="280" Width="600" Closing="Window_Closing" Loaded="Window_Loaded">
+    <Grid Margin="0,0,0,6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="99*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Name = "CancelButton"  Content="Отмена" HorizontalAlignment="Left" Margin="236,181,0,0" VerticalAlignment="Top" FontSize="20" Height="44" Width="128" Click="CancelButton_Click"/>
+        <ProgressBar Name="InitializationProgressBar" HorizontalAlignment="Left" x:FieldModifier="public" Height="36" Margin="62,104,0,0" VerticalAlignment="Top" Width="476" Minimum="0" Maximum="100" ValueChanged="InitializationProgressBar_ValueChanged"/>
+        <TextBlock Name ="GenerationTextBlock" HorizontalAlignment="Left" Margin="256,75,0,0" TextWrapping="Wrap" Text="Генерация" VerticalAlignment="Top" FontSize="18"/>
+
+    </Grid>
+</Window>

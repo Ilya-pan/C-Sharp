@@ -1,0 +1,266 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\WPF_App\\WPF_App.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\KPO_1\\KPO_1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\KPO_1\\KPO_1.csproj",
+        "projectName": "KPO_1",
+        "projectPath": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\KPO_1\\KPO_1.csproj",
+        "packagesPath": "C:\\Users\\Илья\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\KPO_1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Илья\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\PhonesPattern\\PhonesPattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\PhonesPattern\\PhonesPattern.csproj",
+        "projectName": "PhonesPattern",
+        "projectPath": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\PhonesPattern\\PhonesPattern.csproj",
+        "packagesPath": "C:\\Users\\Илья\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\PhonesPattern\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Илья\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\KPO_1\\KPO_1.csproj": {
+                "projectPath": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\KPO_1\\KPO_1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\ProgressDisplay\\ProgressDisplay.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\ProgressDisplay\\ProgressDisplay.csproj",
+        "projectName": "ProgressDisplay",
+        "projectPath": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\ProgressDisplay\\ProgressDisplay.csproj",
+        "packagesPath": "C:\\Users\\Илья\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\ProgressDisplay\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Илья\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\WPF_App\\WPF_App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\WPF_App\\WPF_App.csproj",
+        "projectName": "WPF_App",
+        "projectPath": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\WPF_App\\WPF_App.csproj",
+        "packagesPath": "C:\\Users\\Илья\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\WPF_App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Илья\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\KPO_1\\KPO_1.csproj": {
+                "projectPath": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\KPO_1\\KPO_1.csproj"
+              },
+              "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\PhonesPattern\\PhonesPattern.csproj": {
+                "projectPath": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\PhonesPattern\\PhonesPattern.csproj"
+              },
+              "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\ProgressDisplay\\ProgressDisplay.csproj": {
+                "projectPath": "C:\\Users\\Илья\\source\\repos\\KPO_1\\KPO_1\\ProgressDisplay\\ProgressDisplay.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

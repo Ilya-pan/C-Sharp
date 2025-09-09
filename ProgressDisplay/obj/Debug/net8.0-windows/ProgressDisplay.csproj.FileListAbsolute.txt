@@ -1,0 +1,3 @@
+C:\Users\Илья\source\repos\KPO_1\KPO_1\ProgressDisplay\obj\Debug\net8.0-windows\ProgressWindow.g.cs
+C:\Users\Илья\source\repos\KPO_1\KPO_1\ProgressDisplay\obj\Debug\net8.0-windows\ProgressDisplay_MarkupCompile.cache
+C:\Users\Илья\source\repos\KPO_1\KPO_1\ProgressDisplay\obj\Debug\net8.0-windows\ProgressDisplay_MarkupCompile.lref

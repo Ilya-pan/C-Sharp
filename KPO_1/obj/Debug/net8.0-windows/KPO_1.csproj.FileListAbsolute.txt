@@ -1,0 +1,11 @@
+C:\Users\Илья\source\repos\KPO_1\KPO_1\KPO_1\bin\Debug\net8.0-windows\KPO_1.deps.json
+C:\Users\Илья\source\repos\KPO_1\KPO_1\KPO_1\bin\Debug\net8.0-windows\KPO_1.dll
+C:\Users\Илья\source\repos\KPO_1\KPO_1\KPO_1\bin\Debug\net8.0-windows\KPO_1.pdb
+C:\Users\Илья\source\repos\KPO_1\KPO_1\KPO_1\obj\Debug\net8.0-windows\KPO_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Илья\source\repos\KPO_1\KPO_1\KPO_1\obj\Debug\net8.0-windows\KPO_1.AssemblyInfoInputs.cache
+C:\Users\Илья\source\repos\KPO_1\KPO_1\KPO_1\obj\Debug\net8.0-windows\KPO_1.AssemblyInfo.cs
+C:\Users\Илья\source\repos\KPO_1\KPO_1\KPO_1\obj\Debug\net8.0-windows\KPO_1.csproj.CoreCompileInputs.cache
+C:\Users\Илья\source\repos\KPO_1\KPO_1\KPO_1\obj\Debug\net8.0-windows\KPO_1.dll
+C:\Users\Илья\source\repos\KPO_1\KPO_1\KPO_1\obj\Debug\net8.0-windows\refint\KPO_1.dll
+C:\Users\Илья\source\repos\KPO_1\KPO_1\KPO_1\obj\Debug\net8.0-windows\KPO_1.pdb
+C:\Users\Илья\source\repos\KPO_1\KPO_1\KPO_1\obj\Debug\net8.0-windows\ref\KPO_1.dll

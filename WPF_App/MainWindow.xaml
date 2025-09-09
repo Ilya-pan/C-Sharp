@@ -1,0 +1,102 @@
+﻿<Window x:Class="WPF_App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_App"
+        mc:Ignorable="d"
+        Title="Телефоны" Height="450" Width="850">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10,10,0,10" HorizontalAlignment="Left" Width="742">
+            <ComboBox x:Name="ComboBoxFactory" SelectedIndex="0" Margin="5" Height="30" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="180" Grid.ColumnSpan="2" />
+            <Button x:Name="ButtonAddAndroid" Content="Смартфон" Margin="5" VerticalAlignment="Center" Height="30" Width="100" Grid.Column="2" Click="ButtonAddAndroidAndCandyBarPhone_Click"/>
+            <Button x:Name="ButtonAddIPhone" Content="Обычный" Margin="5" VerticalAlignment="Center" Height="30" Width="100" Grid.Column="3" Click="ButtonAddIPhoneAndClamshellPhone_Click"/>
+            <Button x:Name="ButtonEdit" Content="Изменить" Margin="5" HorizontalAlignment="Stretch"  Height="30" Width="100" Click="ButtonEdit_Click"/>
+            <Button x:Name="ButtonSetRandomValues" Content="Удалить" Margin="5" HorizontalAlignment="Stretch"  Height="30" Width="100" Click="ButtonDelete_Click"/>
+            <Button x:Name="ButtonDelete" Content="Генерировать" Margin="5" HorizontalAlignment="Stretch"  Height="30" Width="100" Click="ButtonRandomValues_Click"/>
+        </StackPanel>
+
+        <DataGrid x:Name="DataGridPhones" x:FieldModifier="public" Grid.Row="2" Margin="10,10,10,10"
+      AutoGenerateColumns="False" IsReadOnly="True" Grid.ColumnSpan="2" ColumnWidth="*">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding PhoneIdentifier}"/>
+                <DataGridTextColumn Header="Модель" Binding="{Binding ModelName}"/>
+                <DataGridTextColumn Header="Год выпуска" Binding="{Binding YearOfManufacture}"/>
+                <DataGridTextColumn Header="Цена" Binding="{Binding PhonePrice}"/>
+            </DataGrid.Columns>
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Добавить">
+                        <MenuItem Header="Андроид" Click="ButtonAddAndroid_Click"></MenuItem>
+                        <MenuItem Header="Айфон" Click="ButtonAddIPhone_Click"></MenuItem>
+                        <MenuItem Header="Моноблок" Click="ButtonAddCandyBar_Click"></MenuItem>
+                        <MenuItem Header="Раскладушка" Click="ButtonAddClamshell_Click"></MenuItem>
+                    </MenuItem>
+                    <MenuItem Header="Изменить" Click="ButtonEdit_Click"></MenuItem>
+                    <MenuItem Header="Удалить"  Click="ButtonDelete_Click" ></MenuItem>
+                    <MenuItem Header="Генерировать текстовые записи" Click="ButtonRandomValues_Click"></MenuItem>
+                </ContextMenu>
+
+            </DataGrid.ContextMenu>
+        </DataGrid>
+
+
+        <Grid Grid.Row="1">
+            <Expander x:Name="FilterExpander" Header="Фильтр" IsExpanded="False" ExpandDirection="Down">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="146*"/>
+                        <ColumnDefinition Width="30*"/>
+                        <ColumnDefinition Width="118*"/>
+                        <ColumnDefinition Width="39*"/>
+                        <ColumnDefinition Width="64*"/>
+                        <ColumnDefinition Width="34*"/>
+                        <ColumnDefinition Width="75*"/>
+                        <ColumnDefinition Width="51*"/>
+                        <ColumnDefinition Width="83*"/>
+                        <ColumnDefinition Width="78*"/>
+                        <ColumnDefinition Width="82*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Column="0" Content="Информация о фильтре" FontSize="12" VerticalAlignment="Center" Height="27"/>
+
+                    <ComboBox Grid.Column="2" Name="NumberFilterTypeComboBox" VerticalContentAlignment="Center" FontSize="13" SelectionChanged="NumberFilterTypeComboBox_SelectionChanged" Margin="3,5,1,5"/>
+
+                    <Label Name="MinLabel" Grid.Column="3" Content="От" Margin="5,0,5,0" VerticalAlignment="Center" Height="26"/>
+                    <TextBox x:Name="MinNumberFilter_TextBox" Grid.Column="4" VerticalContentAlignment="Center" Margin="0,5,3,5" PreviewTextInput="MinTextBox_PreviewTextInput"/>
+                    <Label Name="MaxLabel" Grid.Column="5" Content="До" Margin="2,0,3,0" VerticalAlignment="Center" Height="26"/>
+                    <TextBox x:Name="MaxNumberFilter_TextBox" Grid.Column="6" VerticalContentAlignment="Center" Margin="2,5,10,5" PreviewTextInput="MaxTextBox_PreviewTextInput"/>
+                    <Label Grid.Column="6" Content="Телефон" Margin="74,0,3,0" VerticalAlignment="Center" Height="26" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="TextFilter_TextBox" Grid.Column="8" VerticalContentAlignment="Center" Margin="2,5,0,5"/>
+
+                    <Button x:Name="Filter_Button" Grid.Column="9" Content="Фильтр" VerticalContentAlignment="Center" Margin="5,0,5,5" Click="Filter_Button_Click" Height="23" VerticalAlignment="Bottom"/>
+                    <Button x:Name="ResetFilter_Button" Grid.Column="10" Content="Сбросить" VerticalContentAlignment="Center" Margin="5,5,5,5" Click="ResetFilter_Button_Click"/>
+                </Grid>
+            </Expander>
+        </Grid>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0">
+                <Label Content="Закрыть" FontSize="10" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                <CheckBox x:Name="FinishModCheckBox" VerticalAlignment="Center">
+                    <CheckBox.ToolTip>
+                        <ToolTip>Закрыть автоматически по завершении генерации</ToolTip>
+                    </CheckBox.ToolTip>
+                </CheckBox>
+            </StackPanel>
+        </Grid>
+        <TextBox x:Name="AmountOfPhonesTextBox" TextAlignment="Center" FontSize="16" Margin="757,5,15,39"/>
+
+    </Grid>
+</Window>
